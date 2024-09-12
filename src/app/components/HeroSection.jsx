@@ -33,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className=" text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I am a Full Stack Web Developer with a passion for teamwork. I easily adapt to different environments and enjoy designing interactive and responsive applications that provide engaging experiences to users.
+            I am a Full Stack Web Developer with a passion for teamwork. I easily adapt to different environments and enjoy designing interactive and responsive applications that provide engaging experiences to users.
           </p>
           <div className="mb-6">
             <Link
@@ -43,7 +43,10 @@ const HeroSection = () => {
               My Projects
             </Link>
             <a
-              href={"/"}
+              href="/document/Diego Espinoza_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Diego Espinoza_CV.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-indigo-300 to-violet-600 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
